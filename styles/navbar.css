@@ -86,12 +86,15 @@
     right: 0px;
     color: white;
   }
+
   .nav__logo {
     margin: -50px 0;
   }
+
   .nav__link a {
     color: white;
   }
+
   .nav__links {
     background-color: transparent;
     text-align: center;
@@ -109,6 +112,7 @@
   .nav__links.isActive {
     transform: scaleY(1);
   }
+
   #contact {
     margin: 0;
   }
