@@ -1,5 +1,6 @@
 :root {
   --green: #03fa6e;
+  --dark-blue: #002a43;
 }
 
 body {
@@ -9,4 +10,45 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.subTitle,
+.subTitle__text {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.subTitle {
+  font-size: 3rem;
+  margin-top: 4rem;
+  color: var(--dark-blue);
+}
+
+.subTitle__text {
+  font-size: 1.5rem;
+  color: var(--green);
+  margin: 1rem auto;
+  position: relative;
+  width: fit-content;
+  z-index: -1;
+}
+
+.subTitle__text:before {
+  content: '';
+  height: 3px;
+  width: 50px;
+  background-color: var(--dark-blue);
+  position: absolute;
+  left: -60px;
+  top: 50%;
+}
+
+.subTitle__text:after {
+  content: '';
+  height: 3px;
+  width: 50px;
+  background-color: var(--dark-blue);
+  position: absolute;
+  right: -60px;
+  top: 50%;
 }
