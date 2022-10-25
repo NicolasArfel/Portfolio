@@ -1,4 +1,6 @@
 .nav {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.3rem;
   position: fixed;
   top: 0;
   width: 100%;
@@ -58,9 +60,9 @@
   width: 200px;
 }
 
-#contact {
+.contact {
   font-size: 1.2rem;
-  color: black;
+  color: black !important;
   background-color: white;
   padding: 1rem 2rem;
   margin-right: 3rem;
@@ -68,7 +70,7 @@
   text-transform: uppercase;
 }
 
-#contact:hover {
+.contact:hover {
   color: white;
   background-color: var(--green);
 }
@@ -76,7 +78,7 @@
 @media screen and (max-width: 900px) {
   .nav {
     flex-direction: column;
-    position: relative;
+    background-color: rgba(0, 0, 0, 0.9);
   }
 
   .icon {
@@ -96,7 +98,6 @@
   }
 
   .nav__links {
-    background-color: transparent;
     text-align: center;
     flex-direction: column;
     max-height: 0;
@@ -106,14 +107,21 @@
   }
 
   .nav__link {
-    margin: 2rem;
+    background-color: black;
+    padding: 2rem;
+    /* height: 45vh; */
+    width: 100%;
   }
 
   .nav__links.isActive {
     transform: scaleY(1);
   }
 
-  #contact {
+  .underline:after {
+    transform: none;
+  }
+
+  .contact {
     margin: 0;
   }
 }
