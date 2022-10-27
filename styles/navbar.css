@@ -109,7 +109,7 @@
 
   .nav__link {
     background-color: black;
-    padding: 2rem;
+    padding: 2rem 0;
     /* height: 45vh; */
     width: 100%;
   }
