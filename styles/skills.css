@@ -1,0 +1,40 @@
+.skills {
+  height: 600px;
+  margin: 4rem 0;
+}
+
+.skills__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 4rem auto;
+}
+
+.skills__back {
+  border-left: 2px solid var(--dark-blue);
+  border-right: 2px solid var(--dark-blue);
+}
+
+.skills article {
+  text-align: center;
+}
+
+.skills__container h3 {
+  text-decoration: underline;
+}
+
+.skills li {
+  margin: 1rem;
+}
+
+.skills__logo {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.skills__logo img {
+  width: 100px;
+}
