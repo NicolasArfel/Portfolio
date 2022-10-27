@@ -44,6 +44,9 @@ article span {
 }
 
 @media screen and (max-width: 900px) {
+  .about {
+    height: fit-content;
+  }
   .about__container {
     flex-direction: column;
   }

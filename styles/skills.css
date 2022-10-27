@@ -14,6 +14,7 @@
 .skills__back {
   border-left: 2px solid var(--dark-blue);
   border-right: 2px solid var(--dark-blue);
+  padding: 0 2rem;
 }
 
 .skills article {
@@ -37,4 +38,37 @@
 
 .skills__logo img {
   width: 100px;
+}
+
+@media screen and (max-width: 900px) {
+  .skills__container {
+    flex-direction: column;
+    margin: 1rem auto;
+  }
+  .skills__back {
+    border-top: 2px solid var(--dark-blue);
+    border-bottom: 2px solid var(--dark-blue);
+    border-left: none;
+    border-right: none;
+    padding: 2rem 0;
+  }
+  .skills article {
+    width: 200px;
+  }
+  .skills__logo {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .skills {
+    height: fit-content;
+    width: 100%;
+  }
+  .skills__logo {
+    width: 80%;
+  }
+  .skills__logo img {
+    width: 60px;
+  }
 }

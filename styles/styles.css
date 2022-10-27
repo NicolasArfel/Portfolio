@@ -55,5 +55,26 @@ a {
 
 .subTitle__description {
   text-align: center;
-  margin: 2rem;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+@media screen and (max-width: 500px) {
+  .subTitle {
+    font-size: 2.3rem;
+  }
+  .subTitle__text {
+    font-size: 1.2rem;
+  }
+
+  .subTitle__text:before,
+  .subTitle__text:after {
+    width: 30px;
+  }
+  .subTitle__text:before {
+    left: -40px;
+  }
+  .subTitle__text:after {
+    right: -40px;
+  }
 }
