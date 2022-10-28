@@ -6,7 +6,7 @@
   width: 100%;
   height: 100px;
   display: flex;
-  background-color: transparent;
+  /* background-color: transparent; */
   background-color: var(--dark-blue);
   justify-content: space-between;
   align-items: center;
