@@ -1,0 +1,28 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__logo img {
+  width: 200px;
+  height: 200px;
+  margin: -3rem auto;
+}
+
+.footer .nav__link {
+  margin: 1rem;
+  color: var(--dark-blue) !important ;
+  font-weight: bold;
+}
+
+.social {
+  font-size: 2rem;
+  margin: 2rem;
+  color: var(--dark-blue);
+  transition: transform 130ms ease-in-out;
+}
+.social:hover {
+  transform: scale(1.3);
+}
