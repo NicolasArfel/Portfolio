@@ -13,6 +13,9 @@ a {
   color: black;
 }
 
+section {
+  padding-bottom: 2rem;
+}
 .subTitle,
 .subTitle__text {
   font-family: 'Ubuntu', sans-serif;

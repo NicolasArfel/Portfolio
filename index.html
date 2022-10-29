@@ -12,6 +12,10 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,6 +31,7 @@
     <link rel="stylesheet" href="./styles/about.css" />
     <link rel="stylesheet" href="./styles/skills.css" />
     <link rel="stylesheet" href="./styles/project.css" />
+    <link rel="stylesheet" href="./styles/form.css" />
     <title>Portfolio Nicolas ARFEL</title>
   </head>
   <body>
@@ -302,6 +307,63 @@
           <img src="./images/physics.png" alt="" />
           <img src="./images/js.png" alt="" />
           <img src="./images/nodejs.png" alt="" />
+        </div>
+      </section>
+      <section class="form">
+        <h2 class="subTitle">Contact</h2>
+        <h3 class="subTitle__text">Ecrivez-moi !</h3>
+        <div class="form__container">
+          <div class="left__column">
+            <h3 class="left__column-title">
+              Contactez moi pour diverses informations
+            </h3>
+            <p class="left__column-text">
+              <span class="material-symbols-outlined"> call </span>
+              <a href="tel:+33699737427">06 99 73 74 27 </a>
+            </p>
+            <p class="left__column-text">
+              <span class="material-symbols-outlined">mail</span>
+              <a href="mailto: nicolasarfel@gmail.com">
+                nicolasarfel@gmail.com
+              </a>
+            </p>
+            <p class="left__column-text">
+              <span class="material-symbols-outlined">pin_drop</span>
+              Bordeaux
+            </p>
+          </div>
+
+          <div class="rigth__column">
+            <form class="right__column-form" action="/auth" method="post">
+              <input
+                type="text"
+                name="firstName"
+                placeholder="Prénom"
+                id="firstName"
+                required
+              />
+              <input
+                type="text"
+                name="lastName"
+                placeholder="Nom"
+                id="lastName"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                id="emailAdress"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Votre Message"
+                required
+              ></textarea>
+              <input type="submit" value="ENVOYER VOTRE MESSAGE" />
+            </form>
+          </div>
         </div>
       </section>
     </main>
