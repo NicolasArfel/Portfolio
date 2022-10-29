@@ -62,6 +62,7 @@
   width: 70%;
   height: 100%;
   font-size: 1rem;
+  padding: 0 2rem;
   /* border: 1px solid var(--dark-blue); */
 }
 .project__container article h3,
@@ -102,6 +103,9 @@ button {
     flex-direction: column;
     height: fit-content;
     width: 400px;
+  }
+  .project__container article {
+    padding: 0;
   }
 
   .project__container:hover {

@@ -1,6 +1,5 @@
 .skills {
-  height: 600px;
-  margin: 4rem 0;
+  height: fit-content;
 }
 
 .skills__container {

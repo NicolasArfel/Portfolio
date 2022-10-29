@@ -1,12 +1,10 @@
 .about {
-  height: 600px;
+  height: fit-content;
   width: 100%;
   font-size: 1rem;
-  margin: 4rem 0;
 }
 
 .about__image {
-  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,8 +21,8 @@
   align-items: center;
 }
 article {
-  width: 50%;
-  margin: 2rem;
+  width: 500px;
+  margin: 2rem 5rem;
 }
 
 article h3 {
