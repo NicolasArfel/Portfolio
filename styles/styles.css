@@ -3,6 +3,9 @@
   --dark-blue: #002a43;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;

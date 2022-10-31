@@ -144,11 +144,16 @@ input[type='text'] {
   .left__column,
   .rigth__column {
     width: 90%;
+    margin: 1rem;
   }
 }
 
 @media screen and (max-width: 400px) {
   .left__column p {
     margin-left: 10px;
+  }
+  .left__column a,
+  .left__column-text {
+    font-size: 0.9rem;
   }
 }

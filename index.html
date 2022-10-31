@@ -51,16 +51,21 @@
         </div>
         <ul class="nav__links">
           <li class="nav__link underline"><a href="#about">A propos</a></li>
-          <li class="nav__link underline"><a href="#services">Projets</a></li>
+          <li class="nav__link underline"><a href="#projects">Projets</a></li>
           <li class="nav__link underline">
-            <a href="#projects">Compétences</a>
+            <a href="#skills">Compétences</a>
           </li>
-          <li class="nav__link"><a class="contact" href="#">Contact</a></li>
+          <li class="nav__link">
+            <a class="contact" href="#contact">Contact</a>
+          </li>
         </ul>
-        <a class="icon" href="#">
+        <!-- <a class="icon" href="#">
           <span class="material-symbols-outlined"> menu </span>
-        </a>
+        </a> -->
       </nav>
+      <a class="icon" href="#">
+        <span class="material-symbols-outlined"> menu </span>
+      </a>
       <div class="title">
         <p>Bonjour, je m'appelle</p>
         <h2 class="title__name">Nicolas Arfel</h2>
@@ -69,7 +74,7 @@
       </div>
     </header>
     <main>
-      <section class="about">
+      <section id="about" class="about">
         <h2 class="subTitle">Présentation</h2>
         <h3 class="subTitle__text">Qui je suis ?</h3>
         <div class="about__container">
@@ -111,7 +116,7 @@
           </article>
         </div>
       </section>
-      <section class="projects">
+      <section id="projects" class="projects">
         <h2 class="subTitle">Projets</h2>
         <h3 class="subTitle__text">Mes réalisations</h3>
         <div class="projects__container">
@@ -290,7 +295,7 @@
           </div>
         </div>
       </section>
-      <section class="skills">
+      <section id="skills" class="skills">
         <h2 class="subTitle">Mes Compétences</h2>
         <h3 class="subTitle__text">Ce que je connais</h3>
         <p class="subTitle__description">
@@ -302,7 +307,7 @@
             <h3>Front-End</h3>
             <ul>
               <li>HTML</li>
-              <li>CSS</li>
+              <li>CSS/SASS</li>
               <li>Javascript / Typescript</li>
               <li>REACT</li>
             </ul>
@@ -331,7 +336,7 @@
           <img src="./images/nodejs.png" alt="" />
         </div>
       </section>
-      <section class="form">
+      <section id="contact" class="form">
         <h2 class="subTitle">Contact</h2>
         <h3 class="subTitle__text">Ecrivez-moi !</h3>
         <div class="form__container">
@@ -395,10 +400,10 @@
           ><img src="./images/white-logo-removebg-preview.png" alt=""
         /></a>
       </div>
-      <ul class="footer nav__links">
-        <li class="footer nav__link"><a href="#about">A propos</a></li>
-        <li class="footer nav__link"><a href="#projects">Projets</a></li>
-        <li class="footer nav__link"><a href="#skills">Compétences</a></li>
+      <ul class="nav__links">
+        <li class="nav__link underline"><a href="#about">A propos</a></li>
+        <li class="nav__link underline"><a href="#projects">Projets</a></li>
+        <li class="nav__link underline"><a href="#skills">Compétences</a></li>
       </ul>
       <div class="footer__social">
         <a target="_blank" href="https://github.com/NicolasArfel"
@@ -407,10 +412,14 @@
         <a target="_blank" href="https://www.linkedin.com/in/nicolas-arfel/"
           ><i class="social fa-brands fa-linkedin"></i
         ></a>
-        <a target="_blank" href="https://twitter.com/OldmanL0g4n"
+        <a target="_blank" href="https://twitter.com/NicoArfl"
           ><i class="social fa-brands fa-twitter"></i
         ></a>
       </div>
+      <p class="copyright">
+        © 2022 droits réservés - Site réalisé par
+        <a href="https://nicolas-arfel.netlify.app/">Nicolas ARFEL</a>
+      </p>
     </footer>
   </body>
   <script src="./build/index.js"></script>
