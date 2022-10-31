@@ -1,5 +1,4 @@
 let isActive: boolean = false;
-let scrolled: boolean = false;
 const burgerIcon = document.querySelector(
   '.material-symbols-outlined'
 ) as HTMLSpanElement | null;

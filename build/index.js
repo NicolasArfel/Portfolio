@@ -1,6 +1,5 @@
 "use strict";
 let isActive = false;
-let scrolled = false;
 const burgerIcon = document.querySelector('.material-symbols-outlined');
 const navLinks = document.querySelector('.nav__links');
 const nav = document.querySelector('.nav');

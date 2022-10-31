@@ -361,7 +361,12 @@
           </div>
 
           <div class="rigth__column">
-            <form class="right__column-form" action="/auth" method="post">
+            <form
+              id="form"
+              class="right__column-form"
+              action="https://formsubmit.co/nicolasarfel@gmail.com"
+              method="post"
+            >
               <input
                 type="text"
                 name="firstName"
@@ -389,6 +394,12 @@
                 required
               ></textarea>
               <input type="submit" value="ENVOYER VOTRE MESSAGE" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://nicolas-arfel.netlify.app/"
+              />
             </form>
           </div>
         </div>
@@ -423,4 +434,19 @@
     </footer>
   </body>
   <script src="./build/index.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js">
+        function sendEmail() {
+    Email.send({
+        Host : "smtp.mailtrap.io",
+        Username : "61d611ca6b22ee",
+        Password : "d45d1fbf9bc2b6",
+        To : 'nicolasarfel@gmail.com',
+        From : "sender@example.com",
+        Subject : "Test email",
+        Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
+    }).then(
+      message => alert(message)
+    );
+    }
+  </script>
 </html>
