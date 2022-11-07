@@ -23,6 +23,7 @@ footer .nav__link {
   color: var(--dark-blue);
   transition: transform 130ms ease-in-out;
 }
+
 .social:hover {
   transform: scale(1.3);
 }

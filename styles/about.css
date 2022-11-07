@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .about img {
   height: 350px;
   border-radius: 25%;
@@ -20,6 +21,7 @@
   justify-content: center;
   align-items: center;
 }
+
 article {
   width: 500px;
   margin: 2rem 5rem;
@@ -32,6 +34,7 @@ article h3 {
   color: var(--dark-blue);
   margin-bottom: 1rem;
 }
+
 article p {
   margin: 1rem;
 }
@@ -46,6 +49,7 @@ article span {
     height: fit-content;
     font-size: 1.1rem;
   }
+
   .about__container {
     flex-direction: column;
   }
