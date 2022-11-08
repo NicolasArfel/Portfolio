@@ -31,13 +31,13 @@
   color: white;
   color: black;
   border-radius: 25px;
-  box-shadow: 4px 4px 0px 4px #28424b;
-
+  box-shadow: 0px 0px 18px 0px #000000;
   transition: transform 230ms ease-in-out;
 }
 
 .project__container:hover {
   transform: scale(1.05);
+  box-shadow: none;
 }
 
 .project__container h3 {
@@ -85,11 +85,12 @@ button {
   padding: 0.5rem;
   border-radius: 40px;
   text-transform: uppercase;
+  border: 1px solid black !important;
 }
 
 .project__buttons button:hover {
   background-color: var(--green);
-  border: none;
+  border: none !important;
 }
 
 @media screen and (max-width: 1000px) {

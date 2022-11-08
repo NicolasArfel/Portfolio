@@ -2,6 +2,8 @@ let isActive: boolean = false;
 const burgerIcon = document.querySelector(
   '.material-symbols-outlined'
 ) as HTMLSpanElement | null;
+const phoneLink = document.querySelector('.phone') as HTMLAnchorElement;
+
 const navLinks = document.querySelector('.nav__links') as HTMLUListElement;
 const nav = document.querySelector('.nav') as HTMLDivElement;
 function activeBurgerMenu() {
@@ -41,5 +43,18 @@ function changeNavBarBackground() {
 }
 window.addEventListener('scroll', changeNavBarBackground);
 
+function showPhoneNumber() {
+  phoneLink.addEventListener('mouseover', mOver, false);
+  phoneLink.addEventListener('mouseout', mOut, false);
+}
+function mOver() {
+  phoneLink.textContent = '06 99 73 74 27';
+}
+
+function mOut() {
+  phoneLink.textContent = 'Voir le numéro';
+}
+
 activeBurgerMenu();
 closeBurgerOnClick();
+showPhoneNumber();

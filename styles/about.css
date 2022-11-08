@@ -55,6 +55,8 @@ article h3 {
 
 article p {
   margin: 1rem;
+  line-height: 1.2;
+  font-size: 1rem;
 }
 
 article span {
